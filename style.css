@@ -1,5 +1,9 @@
 header {
     border: 1px solid green;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 main {
@@ -8,4 +12,11 @@ main {
 
 footer {
     border: 1px solid red;
+}
+.Nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px
+    ;
 }
