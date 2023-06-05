@@ -1,4 +1,11 @@
+body {
+background-image: url(/images/backgroundMain.jpg);
+background-size: cover;
+
+}
+
 header {
+    color: white;
     border: 1px solid green;
     display: flex;
     text-align: center;
@@ -8,15 +15,22 @@ header {
 
 main {
     border: 1px solid blue;
+    color: white;
 }
 
 footer {
     border: 1px solid red;
+    color: white;
 }
 .Nav{
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 50px
-    ;
+    gap: 50px;
+    list-style: none;
+}
+
+.aboutMe{
+    
+
 }
