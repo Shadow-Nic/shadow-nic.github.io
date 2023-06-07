@@ -27,6 +27,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  border: 2px solid red;
 }
 
 .logo {
