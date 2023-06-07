@@ -1,6 +1,8 @@
 body {
   background-color: black;
   color: white;
+  margin: auto;
+  overflow-x: hidden;
 }
 
 html {
@@ -23,18 +25,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
   width: 200px;
-  position: fixed;
   padding-left: 20px;
-}
-
-nav ul {
-  position: fixed;
-  margin-left: 75%;
 }
 
 nav ul li {
@@ -53,7 +50,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background: #ffffff; /* Color Blue Main */
+  background: #ffffff;
   position: absolute;
   left: 0;
   bottom: -6px;
