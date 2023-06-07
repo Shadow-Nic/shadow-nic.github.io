@@ -15,6 +15,10 @@ html {
   background-position: center;
 }
 
+.container1 {
+  padding-top: 50px;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -24,6 +28,8 @@ nav {
 
 .logo {
   width: 200px;
+  position: fixed;
+  padding-left: 20px;
 }
 
 nav ul {
@@ -58,7 +64,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  margin-top: 10%;
+  margin-top: 15%;
   font-size: 30px;
 }
 .header-text h1 {
@@ -73,12 +79,14 @@ nav ul li a:hover::after {
 #about {
   width: 100%;
   height: 100vh;
-  background-color: #557fad;
+  background-color: #2a3e55;
+  padding: 1px;
 }
 
 #about h1 {
   font-size: 60px;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 .container2 {
@@ -86,6 +94,7 @@ nav ul li a:hover::after {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
+  margin-right: 25px;
 }
 
 .aboutMeText p {
@@ -101,20 +110,23 @@ nav ul li a:hover::after {
   width: 100%;
   height: 100vh;
   background-color: #557fad;
+  padding: 1px;
 }
 
 #projects h1 {
   font-size: 60px;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 #contact {
   width: 100%;
   height: 100vh;
-  background-color: #557fad;
+  background-color: #6ca4e0;
+  padding: 1px;
 }
 
 #contact h1 {
   font-size: 60px;
-  padding-top: 20px;
-}
+  padding-top: 40px;
+  padding-left: 20px;
