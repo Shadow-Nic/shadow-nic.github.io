@@ -9,12 +9,8 @@ html {
   scroll-behavior: smooth;
 }
 
-.border {
-  border: 2px solid red;
-}
-
 #header {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url(images/backgroundMain.jpg);
   background-size: cover;
@@ -32,6 +28,7 @@ nav {
   position: fixed;
   width: 100%;
   border: 2px solid red;
+  margin-top: -50px;
 }
 
 .logo {
@@ -87,7 +84,6 @@ nav ul li a:hover::after {
 
 #about h1 {
   font-size: 60px;
-  padding-top: 40px;
   padding-left: 20px;
 }
 
@@ -126,27 +122,41 @@ nav ul li a:hover::after {
 }
 
 #projects {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: #557fad;
+  background-color: #2a3e55;
   padding: 40px;
 }
 
 #projects h1 {
   font-size: 60px;
-  padding-top: 40px;
   padding-left: 20px;
 }
 
+.container3 {
+  gap: 50px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+.projectBox {
+  height: 320px;
+  width: 300px;
+  border: 1px solid red;
+  background-color: black;
+}
+
 #contact {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  background-color: #6ca4e0;
+  background-color: #2a3e55;
   padding: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 #contact h1 {
   font-size: 60px;
-  padding-top: 40px;
   padding-left: 20px;
 }
