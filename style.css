@@ -8,13 +8,14 @@ body {
 html {
   scroll-behavior: smooth;
 }
-
+/* Style Header Start */
 #header {
   width: 100vw;
   height: 100vh;
   background-image: url(images/backgroundMain.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .container1 {
@@ -27,8 +28,9 @@ nav {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: -50px;
+  background-color: rgba(128, 128, 128, 0.125);
 }
 
 .logo {
@@ -74,7 +76,9 @@ nav ul li a:hover::after {
 .header-text p {
   margin-left: 20px;
 }
+/* Style Header End */
 
+/* Style About Me Start */
 #about {
   width: 100%;
   height: 100vh;
@@ -120,6 +124,9 @@ nav ul li a:hover::after {
   height: 105px;
   width: 120px;
 }
+/* Style About Me ende */
+
+/* Sytle Projects Start */
 
 #projects {
   width: 100vw;
@@ -140,12 +147,22 @@ nav ul li a:hover::after {
   flex-wrap: wrap;
   margin-left: 20px;
 }
+
 .projectBox {
   height: 320px;
   width: 300px;
   border: 1px solid red;
   background-color: black;
 }
+
+.projectBox:hover {
+  transition-duration: 2.5s;
+  transform: scale(1.5);
+}
+
+/* Style projects End */
+
+/* Style Contact Start */
 
 #contact {
   width: 100vw;
@@ -160,3 +177,32 @@ nav ul li a:hover::after {
   font-size: 60px;
   padding-left: 20px;
 }
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50vh;
+}
+
+.form {
+  width: 500px;
+  padding: 6px;
+  /* border: 1px solid red; */
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  border: none;
+  margin: 6px 0px;
+}
+#btnSend {
+  width: 150px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+/* Style Contact End */
