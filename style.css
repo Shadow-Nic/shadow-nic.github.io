@@ -206,3 +206,16 @@ input {
 }
 
 /* Style Contact End */
+
+.backTop {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: #5c89bd;
+  opacity: 0.4;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
