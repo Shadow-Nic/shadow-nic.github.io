@@ -6,8 +6,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/794429e59c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/animation.css">
 </head>
 
 <body id="top">
@@ -20,21 +21,52 @@
                 <li><a href="#top">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a onclick="showContact()">Contact</a></li>
             </ul>
         </nav>
     </header>
+
+    <section id="contact" class="d-none">
+
+        <div class="container4">
+            <div class="cover-photo">
+                <img src="images/Portrait_Placeholder.png" class="profile">
+            </div>
+            <div class="profile-name">Niclas Basler</div>
+            <p class="about">Web-Developer</p>
+            <div class="icon_contact">
+                <a href="mailto:exanple@email.com" class="msg-btn">Message</a>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+            <a onclick="closeContact()">close</a>
+        </div>
+
+    </section>
+
     <main>
-        <section id="landing">
-            <div class="landing">
-                <h1>Hello World <br>
-                    I'm Niclas, <br>
-                    Web-Developer</h1>
+        <section id="landing" class="landing">
+            <div class="test2">
+                <div class="animation">
+                    <span>Hello</span>
+                    <div class="animation-LP">
+                        <ul class="animation_List">
+                            <li class="_animation_List_Item">World!</li>
+                            <li class="_animation_List_Item">Coder!</li>
+                            <li class="_animation_List_Item">Friends!</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p>I'm Niclas, <br>
+                    aspiring web developer
+                </p>
+
             </div>
 
         </section>
 
-        <section id="about">
+        <section id="about" class="">
 
             <div class="about_head">
                 <h2>About Me</h2>
@@ -56,16 +88,16 @@
 
             <div class="skill">
                 <h2>My Skills:</h2>
-                <div class="test1">
+                <div class="skill_List">
                     <img src="images/logos/HTML5_logo.svg" alt="HTML5" class="skills">
                     <img src="images/logos/CSS_3_logo.svg" alt="CSS" class="skills">
                     <img src="images/logos/Javascript-logo.svg" alt="JavaScript" class="skills">
-                    <img src="images/logos/React-logo.svg" alt="React" class="skills2">
+
                 </div>
             </div>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="">
             <h1>My Projects</h1>
             <section class="container3">
 
@@ -121,65 +153,11 @@
                     </div>
                 </div>
 
-                <div class="project_card_5 card">
-                    <div class="content">
-                        <p class="heading">Card Hover Effect
-                        </p>
-                        <p class="para">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                            laboriosam at voluptas minus culpa deserunt delectus sapiente
-                            inventore pariatur
-                        </p>
-                        <button class="btn">Read more</button>
-                    </div>
-                </div>
 
-                <div class="project_card_6 card">
-                    <div class="content">
-                        <p class="heading">Card Hover Effect
-                        </p>
-                        <p class="para">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                            laboriosam at voluptas minus culpa deserunt delectus sapiente
-                            inventore pariatur
-                        </p>
-                        <button class="btn">Read more</button>
-                    </div>
-                </div>
-
-                <div class="project_card_7 card">
-                    <div class="content">
-                        <p class="heading">Card Hover Effect
-                        </p>
-                        <p class="para">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                            laboriosam at voluptas minus culpa deserunt delectus sapiente
-                            inventore pariatur
-                        </p>
-                        <button class="btn">Read more</button>
-                    </div>
-                </div>
-                <div class="project_card_8 card">
-                    <div class="content">
-                        <p class="heading">Card Hover Effect
-                        </p>
-                        <p class="para">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                            laboriosam at voluptas minus culpa deserunt delectus sapiente
-                            inventore pariatur
-                        </p>
-                        <button class="btn">Read more</button>
-                    </div>
                 </div>
 
             </section>
         </section>
-
-        <section id="contact">
-            <h1>Contact</h1>
-        </section>
-
-
 
     </main>
 

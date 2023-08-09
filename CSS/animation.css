@@ -1,0 +1,48 @@
+.animation-LP {
+  display: block;
+  overflow: hidden;
+  font-size: 1em;
+  line-height: 60px;
+  height: 60px;
+  color: #0974f1;
+  font-weight: bold;
+}
+
+.animation_List {
+  padding-top: 5px;
+  list-style: none;
+  animation-name: change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+.anitmation_List_Item {
+  line-height: 60px;
+  margin: 0;
+}
+
+@keyframes change {
+  /* 100% bis 66.66% */
+  100%,
+  88.89%,
+  77.78%,
+  66.67% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  /* 66.66% bis 33.33% */
+  62.96%,
+  51.85%,
+  40.74%,
+  29.63% {
+    transform: translate3d(0, -33.33%, 0);
+  }
+
+  /* 33.33% bis 0% */
+  25.93%,
+  14.82%,
+  3.71%,
+  0% {
+    transform: translate3d(0, -63.66%, 0);
+  }
+}
