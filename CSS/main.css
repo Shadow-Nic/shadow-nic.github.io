@@ -429,5 +429,8 @@ nav ul li a:hover::after {
   .skill {
     order: 4;
   }
+  .container4 {
+    transform: scale(1);
+  }
 }
 /* #endregion */
