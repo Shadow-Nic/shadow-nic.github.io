@@ -112,7 +112,7 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/background_main.jpg);
+  background-image: url(../images/background_main.jpg);
   background-size: cover;
 }
 
@@ -327,7 +327,7 @@ nav ul li a:hover::after {
 }
 
 .cover-photo {
-  background: url("/images/background.jpg") no-repeat;
+  background: url("../images/background.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   height: 160px;
