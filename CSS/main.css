@@ -224,9 +224,8 @@ nav ul li a:hover::after {
 /* Cards Project */
 
 .card {
-  position: relative;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   width: 320px;
   height: 360px;
@@ -241,6 +240,7 @@ nav ul li a:hover::after {
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
   color: #e8e8e8;
@@ -270,6 +270,10 @@ nav ul li a:hover::after {
   background: #0974f1;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.content .btn a {
+  text-decoration: none;
+  color: var(--color-text-light);
 }
 
 .card:hover {
@@ -359,6 +363,9 @@ nav ul li a:hover::after {
   border-radius: 3px;
   font-family: Montserrat, sans-serif;
   cursor: pointer;
+}
+.icon_contact a:visited {
+  color: var(--color-text-light);
 }
 
 .icon_contact {
