@@ -43,6 +43,11 @@ body {
   height: 50px;
   width: 50px;
 }
+
+.d-none {
+  display: none;
+}
+
 /* #endregion */
 
 /* #region Header_Style */
@@ -307,10 +312,6 @@ nav ul li a:hover::after {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.d-none {
-  display: none;
 }
 
 .container4 {
