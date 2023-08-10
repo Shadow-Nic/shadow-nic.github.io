@@ -216,7 +216,7 @@ nav ul li a:hover::after {
   font-size: 60px;
   padding-left: 20px;
 }
-.container3 {
+.container_projects {
   margin: auto;
   margin-top: 150px;
   display: flex;
@@ -314,7 +314,7 @@ nav ul li a:hover::after {
   align-items: center;
 }
 
-.container4 {
+.container_contact {
   user-select: none;
   margin: 100px auto;
   background: var(--color-primary-dark);
@@ -376,13 +376,13 @@ nav ul li a:hover::after {
   margin-bottom: 25px;
 }
 
-.container4 i {
+.container_contact i {
   padding-left: 20px;
   font-size: 25px;
   cursor: pointer;
   transition: 0.5s;
 }
-.container4 i:hover {
+.container_contact i:hover {
   color: var(--color-accent);
 }
 
@@ -437,7 +437,7 @@ nav ul li a:hover::after {
   .skill {
     order: 4;
   }
-  .container4 {
+  .container_contact {
     transform: scale(1);
   }
 }
