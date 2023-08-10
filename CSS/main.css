@@ -121,7 +121,7 @@ nav ul li a:hover::after {
   background-size: cover;
 }
 
-.test2 {
+.container_landing {
   display: flex;
   flex-direction: column;
   justify-content: left;
