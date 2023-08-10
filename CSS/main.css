@@ -266,7 +266,7 @@ nav ul li a:hover::after {
 }
 
 .content .btn {
-  color: #e8e8e8;
+  color: var(--color-text-light);
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
@@ -275,10 +275,6 @@ nav ul li a:hover::after {
   background: #0974f1;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-.content .btn a {
-  text-decoration: none;
-  color: var(--color-text-light);
 }
 
 .card:hover {
@@ -388,7 +384,7 @@ nav ul li a:hover::after {
 
 /* #endregion */
 
-/* #region Media Query's */
+/* #region Media Query's still in progress */
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
   #about {
